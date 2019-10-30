@@ -12,3 +12,4 @@ if (userKnow === 'yes' || userKnow === 'y') {
   alert ('Uh, yeah you do.');
   console.log('No');
 }
+console.log('userName');
