@@ -1,21 +1,54 @@
-body {
-  background-image: url("/img/crystal.JPG"); 
-  
-}
-h1 {
-margin-top: 1em;
-font-size: 2.75em;
-font-style: bold;
-padding-left: .75em;
-padding-right: 2em;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-color: #01426A;}
-
+/* text and header styling */
 p {
+  color: #333333;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  margin-top: 1em;
-  line-height: 1.25em;
-  color: #2774AE;
-  padding-left: 2em;
-  padding-right: 2em;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+h1 {
+  color:white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: .5em 0 0.5em;
+}
+
+h2 {
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding:0;
+  margin:1em 0 1em 0;
+}
+
+h3 {
+    color: #2774AE;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+/* div styling */
+.top-container {
+  background-image: url("/img/crystal.JPG"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.header {
+  padding: 20px 50px 20px 50px;
+  background: #01426A;
+  /* color: #2774AE; */
+}
+
+.content {
+  padding: 50px;
+  background: white;
 }
