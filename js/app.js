@@ -67,8 +67,7 @@ console.log ('What is your name?:', userName); // added correct console.log styl
 
 alert('Hello, ' + userName + '.');
 
-// sixth question
-
+// Question #7: How old am I?
 var userAge = prompt ('How old am I?');
 userAge = parseFloat(userAge);
 console.log (typeof userAge);
@@ -80,13 +79,4 @@ if (userAge > (30)) {
   alert ('Too low!');
 }
 
-for (var i = 0; i < 4; i++) {
-  document.write(i);
-}
 
-// var i = 0;
-
-// while(i < 4) {
-//   console.log(i)
-//   i = i + 1;
-// }
