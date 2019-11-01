@@ -1,3 +1,23 @@
+/* div styling */
+.top-container {
+  background-image: url("/img/crystal.JPG"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.header {
+  padding: 20px 50px 20px 50px;
+  background: #01426A;
+  /* color: #2774AE; */
+}
+
+.content {
+  padding: 50px;
+  background: white;
+}
+
 /* text and header styling */
 p {
   color: #333333;
@@ -33,22 +53,22 @@ h3 {
     margin-bottom: 1em;
     margin-top: 1em;
 }
-/* div styling */
-.top-container {
-  background-image: url("/img/crystal.JPG"); 
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 100px;
-  text-align: center;
+
+/* list styling */
+
+ol { 
+  list-style-type: decimal; 
+  list-style-position: inside; 
 }
 
-.header {
-  padding: 20px 50px 20px 50px;
-  background: #01426A;
-  /* color: #2774AE; */
+ul { 
+  list-style-type: disc; 
+  list-style-position: inside; 
 }
 
-.content {
-  padding: 50px;
-  background: white;
+li {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5;
 }
