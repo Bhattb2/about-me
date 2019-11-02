@@ -50,6 +50,7 @@ if (userCollege === 'yes' || userCollege === 'y') {
 questionThree();
 
 // Question #4: Do I live in Seattle?
+var questionFour = function() {
 var userCity = prompt ('Do I live in Seattle?');
 userCity = userCity.toLowerCase();
 
@@ -60,6 +61,8 @@ if (userCity === 'yes' || userCity === 'y') {
 } else {
   alert ('What, you think I live in the burbs? Aw hell no!');
 }
+}
+questionFour ();
 
 // Question #5: Am I employed?
 var userJob = prompt ('Am I employed?');
