@@ -34,6 +34,8 @@ if (userCode === 'yes' || userCode === 'y') {
 questionTwo ();
 
 // Question #3: Did I attend college?
+
+var questionThree = function() {
 var userCollege = prompt ('Did I attend college?');
 userCollege = userCollege.toLowerCase();
 
@@ -44,6 +46,8 @@ if (userCollege === 'yes' || userCollege === 'y') {
 } else {
   alert ('Hey now, I am smart, okay!');
 }
+}
+questionThree();
 
 // Question #4: Do I live in Seattle?
 var userCity = prompt ('Do I live in Seattle?');
