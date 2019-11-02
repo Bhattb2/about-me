@@ -90,6 +90,7 @@ alert('Hello, ' + userName + '.');
 questionSix ();
 
 // Question #7: How old am I?
+var questionSeven = function(){
 var userAge = prompt ('How old am I?');
 userAge = parseFloat(userAge);
 console.log (typeof userAge);
@@ -100,5 +101,6 @@ if (userAge > (30)) {
 } else if (userAge < 30) {
   alert ('Too low!');
 }
-
+}
+questionSeven();
 
