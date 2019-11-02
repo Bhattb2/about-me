@@ -1,7 +1,10 @@
 'use strict';
 
 // Question #1: Do you know me?
-var userKnow = prompt ('Do you know me?');
+var questionOne = function()  {
+var userKnow = prompt('Do you know me?');
+console.log ('Good morning' + userKnow);
+  
 userKnow = userKnow.toLowerCase();
 
 console.log ('Do you know me?:', userKnow); // added correct console.log style
@@ -10,7 +13,9 @@ if (userKnow === 'yes' || userKnow === 'y') {
   alert ('What up! I know you, too.');
 } else {
   alert ('Uh, yeah you do.');
+} 
 }
+questionOne();
 
 // Question #2: Am I taking a CodeFellows course?
 var userCode = prompt ('Am I taking a CodeFellows course?');
