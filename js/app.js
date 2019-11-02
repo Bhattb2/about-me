@@ -18,16 +18,20 @@ if (userKnow === 'yes' || userKnow === 'y') {
 questionOne();
 
 // Question #2: Am I taking a CodeFellows course?
+var questionTwo = function() {
+
+
 var userCode = prompt ('Am I taking a CodeFellows course?');
 userCode = userCode.toLowerCase();
 
 console.log ('Am I taking a CodeFellows course?:', userCode); // added correct console.log style
-
 if (userCode === 'yes' || userCode === 'y') {
   alert ('Damn right I am.');
 } else {
   alert ('Uh, yeah I am.');
 }
+}
+questionTwo ();
 
 // Question #3: Did I attend college?
 var userCollege = prompt ('Did I attend college?');
