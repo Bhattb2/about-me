@@ -80,11 +80,14 @@ if (userJob === 'yes' || userJob=== 'y') {
 questionFive ();
 
 // Question #6: What is your name?
+var questionSix = function(){
 var userName = prompt ('What is your name?');
 
 console.log ('What is your name?:', userName); // added correct console.log style
 
 alert('Hello, ' + userName + '.');
+}
+questionSix ();
 
 // Question #7: How old am I?
 var userAge = prompt ('How old am I?');
