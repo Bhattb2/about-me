@@ -65,6 +65,7 @@ if (userCity === 'yes' || userCity === 'y') {
 questionFour ();
 
 // Question #5: Am I employed?
+var questionFive = function(){
 var userJob = prompt ('Am I employed?');
 userJob = userJob.toLowerCase();
 
@@ -75,6 +76,8 @@ if (userJob === 'yes' || userJob=== 'y') {
 } else {
   alert ('Wrong! I am employed by Alaska Airlines.');
 }
+}
+questionFive ();
 
 // Question #6: What is your name?
 var userName = prompt ('What is your name?');
